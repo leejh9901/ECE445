@@ -1,8 +1,10 @@
 # Notebook
-## 2/8/2022 (Tue)
+## Week 4
+### 2/8/2022 (Tue)
 
 
-## 2/16/2022 (Wed)
+## Week 5
+### 2/16/2022 (Wed)
 We sent an email to our project sponsor Kenny regarding our inquiries of the project and the design in general. 
 After receiving Kenny's reply, we finalized on some of the aspects of the design:
 1. Kenny presented a paper explaining that a separate ground plane can poetentially be unnecessary, but does have higher noise than if we had one. In the scope of our project, we decided to include the ground plane in order to eliminate potential noise issues. 
@@ -11,15 +13,15 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 4. Retractable wires will be used in order to eliminate potential wire issues. 
 
 
-## 2/17/2022 (Thur)
-### Weekly meeting with TA Notes
-#### Logistics
+### 2/17/2022 (Thur)
+#### Weekly meeting with TA Notes
+##### Logistics
 - Better to finish the design document draft before Design Document Check
 - Proposal should be graded by this weekend.
 - Anything related to PCB -> go talk to the TA, Evan
 
 
-#### Design Document
+##### Design Document
 1. Have the high level requirements be perfect
 2. More feedback during the design document check
 3. Verification for every subsystem —> talked about it during lectures
