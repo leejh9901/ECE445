@@ -13,15 +13,13 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 
 ## 2/17/2022 (Thur)
 ### Weekly meeting with TA Notes
-<Logistics>
-
+#### Logistics
 - Better to finish the design document draft before Design Document Check
 - Proposal should be graded by this weekend.
 - Anything related to PCB -> go talk to the TA, Evan
 
 
-<Design Document>
-
+#### Design Document
 1. Have the high level requirements be perfect
 2. More feedback during the design document check
 3. Verification for every subsystem —> talked about it during lectures
