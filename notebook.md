@@ -11,5 +11,27 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 4. Retractable wires will be used in order to eliminate potential wire issues. 
 
 
-
 ## 2/17/2022 (Thur)
+### Weekly meeting with TA Notes
+<Logistics>
+
+- Better to finish the design document draft before Design Document Check
+- Proposal should be graded by this weekend.
+- Anything related to PCB -> go talk to the TA, Evan
+
+
+<Design Document>
+
+1. Have the high level requirements be perfect
+2. More feedback during the design document check
+3. Verification for every subsystem —> talked about it during lectures
+4. Self-explanatory
+5. Visual aid: zoom it and provide more details
+6. You can definitely change the products you use later, but make sure that the verifications and requirements are stable.
+7. Be consistent with the format, spacing, and citation (IEEE), etc.
+8. Make sure to cite the last semester’s project
+9. Grading is pretty harsh.
+
+
+
+
