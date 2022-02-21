@@ -21,7 +21,7 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 - Anything related to PCB -> go talk to the TA, Evan
 
 
-##### Design Document
+#### Design Document
 1. Have the high level requirements be perfect
 2. More feedback during the design document check
 3. Verification for every subsystem —> talked about it during lectures
