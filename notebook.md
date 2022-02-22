@@ -34,6 +34,11 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 
 
 ## Week 6
+### 2/21/2022 (Mon)
+PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
+
+
+
 ### 2/22/2022 (Tue)
 #### DESIGN DOCUMENT CHECK
 #### \<General Feedbacks\>
