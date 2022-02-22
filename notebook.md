@@ -35,8 +35,8 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 
 ## Week 6
 ### 2/22/2022 (Tue)
-#### \<Design Document Check\>
-#### General Feedbacks:
+#### DESIGN DOCUMENT CHECK
+#### \<General Feedbacks\>
 #### Tolerance analysis
 1. The most important point in our project
 2. How modifications will change the results
@@ -50,7 +50,8 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 1. You don’t put specific chips on block diagram
 
 
-#### Our Design Document Feebacks:
+
+#### \<Our Design Document Feebacks\>
 #### High-level Requirements
 1. Add tolerance
 	- what if cut off freq is not within the bound
