@@ -33,5 +33,70 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 9. Grading is pretty harsh.
 
 
+## Week 6
+### 2/22/2022 (Tue)
+#### \<Design Document Check\>
+#### General Feedbacks:
+#### Tolerance analysis
+1. The most important point in our project
+2. How modifications will change the results
+3. Specific component, not a module
+4. Equations should be in separate lines from text
+
+#### R and V
+1. Lines start in the same page
+
+#### Block diagram
+1. You don’t put specific chips on block diagram
+
+
+#### Our Design Document Feebacks:
+#### High-level Requirements
+1. Add tolerance
+	- what if cut off freq is not within the bound
+	- if 200Hz is coming from somewhere, put citation (like [3])
+
+#### Block diagram
+1. Some of the lines are hard to distinguish
+    - e.g., between power and ground 
+2. Show what’s 3.3V and 5V
+3. Label transmission as bluetooth
+4. Data
+    - analog or digital ? —> label them
+    - if have different data protocols
+5. No need to label all the ground
+6. Lines a bit confusing
+    - from the top
+7. Arrow between 9b and 5.5
+    - invisible (too small)
+
+
+#### Requirement and Verification
+1. The number —> is it coming from the datasheet?
+    - double check that it’s not from data sheet —> no need to verify if it’s from data sheet
+    - amplified correctly?
+        - where is it coming from
+        - maybe combine with the next one
+
+2. Add some tolerances in these so you have rooms
+3. Table capture ???
+
+
+#### Tolerance analysis	
+1. Put more equations
+    - how you actually calculated the values you’re using
+2. ADC
+    - from data sheet ?
+        - if so, cite it
+3. Do some analysis with the frequencies
+
+
+
+
+
+
+
+
+
 
 
