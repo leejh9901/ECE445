@@ -41,14 +41,14 @@ PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
 
 ### 2/22/2022 (Tue)
 #### DESIGN DOCUMENT CHECK
-#### \<General Feedbacks\>
+#### \<General Feedback\>
 #### Tolerance analysis
 1. The most important point in our project
 2. How modifications will change the results
 3. Specific component, not a module
 4. Equations should be in separate lines from text
 
-#### R and V
+#### Requirement and Verification
 1. Lines start in the same page
 
 #### Block diagram
@@ -56,7 +56,7 @@ PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
 
 
 
-#### \<Our Design Document Feebacks\>
+#### \<Our Design Document Feeback\>
 #### High-level Requirements
 1. Add tolerance
 	- what if cut off freq is not within the bound
