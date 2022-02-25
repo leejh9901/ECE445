@@ -99,8 +99,21 @@ PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
 
 
 
+### 2/24/2022 (Thur)
+#### \<Weekly meeting with TA Notes\>
 
+1. Data transmission subsystem calculation (in the desing document) looks fine.
+    - You can incorporate that with Tolerance Analysis (if you want)
+    - That is something instructors/graders expect to see in Tolerance Analysis
 
+2. Design Review is a formal presentation
+    - Be on time
+    - Be professional
+    - etc.
+
+3. Cite everything in the design document
+    - IEEE format
+    
 
 
 
