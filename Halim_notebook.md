@@ -3,7 +3,7 @@
 [[_TOC_]]
 
 # 2022-02-05 - Discussion with Kenny
-##2/16/2022 (Wed)
+## 2/16/2022 (Wed)
 We sent an email to our project sponsor Kenny regarding our inquiries of the project and the design in general. After receiving Kenny's reply, we finalized on some of the aspects of the design:
 
 Kenny presented a paper explaining that a separate ground plane can poetentially be unnecessary, but does have higher noise than if we had one. In the scope of our project, we decided to include the ground plane in order to eliminate potential noise issues.
