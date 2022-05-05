@@ -43,10 +43,31 @@ Progress:
 7. Arrow between 9b and 5.5
     - invisible (too small)
 
+
+## 2022-02-28 - DESIGN DOCUMENT improvement
+Objective: Improve the design document based on the feedback provided
+Progress: Here is the updated version of our block diagram:
+
+<img width="1041" alt="스크린샷 2022-05-04 오후 3 12 14" src="https://user-images.githubusercontent.com/33310400/167015643-7e07ad4b-5b88-485d-bf4a-48489f3957cb.png">
+
+I deleted the unnecessary ground arrows as given in the feedback, and made the lines much clearer for easier comprehensiveness. 
+
+
+## 2022-03-08 - PCB round 1 deisgn, and feedback
+Objective: Design first round of PCB design and receive feedback
+Progress: Here is round 1 PCB design of our device:
+
+<img width="847" alt="스크린샷 2022-05-05 오후 2 59 38" src="https://user-images.githubusercontent.com/33310400/167015881-0d1de266-722d-4d9a-bf41-04ec114af23b.png">
+
+It contains bridge connectors for the battery, power switch, voltage regulator, SEN-12650 chips, and the ESP32 chip. As we were not fully confident with the choice of our microprocessor, it is likely that this design will not function properly in terms of wireless transmission, but it does provide a good start. I believe that I can make the PCB smaller than this current design, such that the device is much more compact in size. 
+
+
+
 ## 2022-03-15 - Testing LEAD I, III signal with a dev board (SEN-12650)
 Objective: Check if the board is able to produce a correct ECG signal
 Progress: Ye and I visited the lab to test whether we were able to obtain an ECG signal using the SEN-12650 board. This board contains the AD8232 chip with a biasing configuration listed in its datasheet. 
 <img width="450" alt="스크린샷 2022-05-05 오후 2 32 17" src="https://user-images.githubusercontent.com/33310400/167011687-ac4d86a2-d7e7-448c-b17a-248034d30c17.png">
+
 Connecting the V_s, ground, and the electrode patches to the body (Right Arm (RA, positive node), Left Arm(LA, negative node), and Right Leg (RL, ground node)), we were able to see the ECG signal shown above. This corresponds to Lead I signal of the ECG. Now switching to having LA, LL, RA, we were able to obtain the Lead III signal. 
 
 ## 2022-03-23 - Ordering Necessary Components
@@ -70,6 +91,14 @@ Here are what I ordered:
 Since we had sufficient funding, resistors and capacitos were picked by considering a high voltage rating (more stable). 
 I would expect them to arrive in a week, though some parts might take longer. 
 
+## 2022-03-30 - PCB round 2 design
+Objective: Design second round of PCB design
+Progress: Here is round 2 PCB design of our device:
+
+<img width="790" alt="스크린샷 2022-05-05 오후 3 03 29" src="https://user-images.githubusercontent.com/33310400/167016429-19c5985c-49fc-43c9-ae21-a2cf36050c8f.png">
+
+Based on the successes and failures from PCB round 1, this design is implemented in the hope of creating more space in the enclosure. Test points are added for debugging purposes. One main challenge here is to solder the AD8232 chip on it. It is a QFN packaging, which is a type that does not have legs. It would require heatguns to solder them. I will try soldering them next week. 
+
 
 ## 2022-03-31 - Ordering the plastic enclosure
 Objective: Order the plastic enclosure to match our PCB design
@@ -78,9 +107,24 @@ Here are what I ordered:
 #### \<Polycase\>
 1. TS-3315P Plastic Electronics Enclosure - x2 (in case one breaks apart)
 
+
+## 2022-04-06 - Soldering components to PCB
+Objective: Solder components on PCB to test funtionalities of subsystems
+Progress: Battery connection and the voltage regulator was soldered to test whether the output of the voltage regulator was able to produce 3.3V. It indeed is able to produce a steady voltage around 3.29V with an error in only millivolts. 
+Onto soldering the AD8232 chip, I referred to youtube tutorials on how to solder QFN packaging chips. Upon wasting about 6 chips and 3 boards, I believed that I had soldered them correctly. After soldering the resistors and capacitors on, I connected everything and tested for the signal on the oscciloscope. However, I was not able to see any output signal. I used proves to test each node of the AD8232 chip. The input voltage, input signal nodes were working, but I could not see any outputs. The verified nodes might have even been not connected to the chip itself, as the probe was thicker than the width of each leg. It was 4 hours of soldering with no outcome. Ye and I discussed about this issue and decided to use SEN12650 board for our device. 
+Using the SEN-12650 would guarantee us to produce the correct signal, but far from our initial objective. However, we are able to justify this. When we ordered our resistors and capacitors, we intentionally ordered them in 1206 packaging, which comes in a larger size such that it is easier to solder. However, for the SEN-12650 board, the resistors and capacitors were in 0805 packaging, and are aligned very nicely. 
+
+![12650-02](https://user-images.githubusercontent.com/33310400/167017796-38ec19a3-313e-42be-8b1c-af890d0559c6.jpg)
+
+Therefore we were able to justify our decision by claiming that this board ultimately can be more ideal as its entire setup is compact in size. We decided to use a hot air machine to desolder the audiojack portion, which would significantly reduce the space that this board takes. 
+
+
+
+
 ## 2022-04-08 - Ordering replacement parts required
 Objective: Order necessary components that changed after the testing of final product
 Progress: Upon checking the arrived PCB, I realized that I ordered the wrong packing for the 3.5mm audio jack connector. 
+
 ![스크린샷 2022-05-05 오후 2 48 20](https://user-images.githubusercontent.com/33310400/167014227-5a3cc730-8071-49d4-ad11-9d0a0aef446e.png)
 
 The connector on the top was what I had ordered, but the connector packaging did not fit the layout printed in our PCB (left). Hence I had to reorder the audio connector that fits this type of packaging. I learned about different packasing styles and realized that I need to be more considerate about packaging standards when considering putting parts together.
@@ -90,10 +134,6 @@ Here are what I ordered:
 #### \<Mouser\>
 1. Rocker Switch - RA12131100
 2. Phone Connectors (SMD) - SJ-3523-SMT-TR
-
-
-
-
 
 
 
