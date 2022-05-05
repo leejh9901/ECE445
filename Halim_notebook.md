@@ -41,3 +41,12 @@ Retractable wires will be used in order to eliminate potential wire issues.
     - from the top
 7. Arrow between 9b and 5.5
     - invisible (too small)
+
+
+
+## Mounting PCB with the enclosure in the Machine Shop
+### 4/22/2022 (FRI)
+I visited the Machine Shop to follow up on our details of the design with the desired placements. We discussed placements for the battery case, LED, rocker switch, input circular hole for the ECG wire, hole for the three signal wires to be checked with the osciilscope (signal 1, signal 2, ground), and hole for a USB connection with the microprocessor. As I explained my requirements, they suggested me some solutions, which were a tremenderous help. What they suggested was:
+1. Cut out the corners of the PCB to be able to mount the PCB at the bottom of the enclosure
+2. Place the battery on the top of the device so that a user won't need to open the enclosure every time when battery needs to be replaced
+Here is a picture of the 
