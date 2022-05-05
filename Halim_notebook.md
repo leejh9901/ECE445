@@ -87,6 +87,8 @@ Here are what I ordered:
 #### \<Digikey\>
 1. Electrode pad sensor cable in 3 - for wire connection to the ECG patches
 2. 10uF capacitors
+#### \<Amazon\>
+1. Cable Matters 2-Pack Retractable Ethernet Cable (Retractable Cat5e Cable, Cat 5e Cable) Supporting 10/100/1000 Mbps Gigabit Ethernet
 
 Since we had sufficient funding, resistors and capacitos were picked by considering a high voltage rating (more stable). 
 I would expect them to arrive in a week, though some parts might take longer. 
@@ -136,6 +138,20 @@ Here are what I ordered:
 2. Phone Connectors (SMD) - SJ-3523-SMT-TR
 
 
+## 2022-04-14 - DIY retractable cable manufacturing
+Objective: Decompose the retractable cable bought from Amazon and apply our ECG wires into the system
+Progress: After the ECG wires and retractable wire have arrived, I refered to a DIY tutorial on youtube and attempted to implement our ECG cable into the retractable system. 
+
+Video : https://www.youtube.com/watch?v=JiE-1vBRO1g&t=2s
+
+<img width="406" alt="스크린샷 2022-05-05 오후 3 25 30" src="https://user-images.githubusercontent.com/33310400/167019747-8514f37e-c898-4d3d-87f1-fefe81f08aa7.png">
+<img width="544" alt="스크린샷 2022-05-05 오후 3 25 44" src="https://user-images.githubusercontent.com/33310400/167019760-11627e73-9b4a-4e8a-8369-1a5814eee4aa.png">
+
+The tutorial video seemed easy, but it took me 6 tries to make a successful one. The primary reason of failure was that there is a very tiny ball bearing mounted in the system, and I lost them as the system sprang out. It required a lot of force as there is a spring mounted in the retractable system and it builds up massively as I rotate the cables. Consequently, it was a success, though the plastic mount was a little broken so I had to put a tape on both sides to prevent them from exploding. Below shows the retractable cable pulled to different lengths:
+
+![스크린샷 2022-05-04 오후 4 45 49](https://user-images.githubusercontent.com/33310400/167020146-00aa3990-cbe6-49f3-9a1e-12a20aef0663.png)
+
+I am proud that I was able to make this myself. I initially mentioned about this in a discussion with the Machine Shop, and they turned me around in this. 
 
 ## 2022-04-22 - Mounting PCB with the enclosure in the Machine Shop
 Objective: Visit Machine Shop to drill holes in appropriate places of our device enclosure
@@ -145,3 +161,22 @@ I visited the Machine Shop to follow up on our details of the design with the de
 1. Cut out the corners of the PCB to be able to mount the PCB at the bottom of the enclosure
 2. Place the battery on the top of the device so that a user won't need to open the enclosure every time when battery needs to be replaced
 Here is a picture of the 
+
+
+## 2022-04-29 - Mock Presentation and Feedback
+Objective: Attend the mock presentation and receive feedback for improvements
+Progress: All three of us attended the mock presentatino and received valuable feedback. Here are the feedback notes:
+1. Include HL requirement
+2. Delete some too technical details
+3. Ensure eye contact with the audience 
+4. Suggestion : dive straight into problem -> show tangling wires photo
+                then provide solution
+		-> as if you are selling this product
+5. requirements and verification -> more photos and videos (visual material)
+6. block diagram should be bigger
+7. Requiment -> not necessarily word by word from the DD. 
+8. page number
+9. whole presentation 20~25min (make it 20 since prof might ask questions)
+
+The TAs were extremely helpful for the success of our presentation, and we have a clearer goal of what to do to have a successful presentation. 
+
