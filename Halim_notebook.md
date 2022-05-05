@@ -82,8 +82,10 @@ Here are what I ordered:
 Objective: Order necessary components that changed after the testing of final product
 Progress: Upon checking the arrived PCB, I realized that I ordered the wrong packing for the 3.5mm audio jack connector. 
 ![스크린샷 2022-05-05 오후 2 48 20](https://user-images.githubusercontent.com/33310400/167014227-5a3cc730-8071-49d4-ad11-9d0a0aef446e.png)
+
 The connector on the top was what I had ordered, but the connector packaging did not fit the layout printed in our PCB (left). Hence I had to reorder the audio connector that fits this type of packaging. I learned about different packasing styles and realized that I need to be more considerate about packaging standards when considering putting parts together.
 Furthermore, upon testing the functionality of the anti-vandal switch that I had ordered, I realized that this is the type of switch that only turns on when I am pressing and holding the button. This is far from ideal since we want the switch to be hands-free. This was a OFF-(ON) type specified in Mouser, and the type that we should look for is OFF-ON-OFF. A rocker switch, though doesn't have a LED indicator, is a perfect fit given our compact size. I decided to add a small LED that is separate from the switch that tells us whether the device is On or OFF. 
+
 Here are what I ordered:
 #### \<Mouser\>
 1. Rocker Switch - RA12131100
