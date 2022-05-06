@@ -425,7 +425,27 @@ Lead3: <br> <br>
 
 ![Lead3 Graph](lead3_graph.png)
 
+
+<br> <br>
+
+The general ideas of the program uploaded on ESP32 is as follows:
+<br>
+
+- Used BLE
+- Send 2 bytes per every message
+- The Most Significant Bit (MSB) of the 2-byte data is used to indicate which Lead's data it is. This is possible because it is guranteed that the maximum data can be represented with 15 or fewer bits.
+
+<br>
+
+- Once the data are received in the computer, the system determines which Lead's data it is based on the MSB of the data received.
+- Lead 2 data is obtained by summing up Lead 1 data and Lead 3 data.
+- The data of each lead is stored in each file separately.
+- The visualization code will then read the last data of each file to display the graphs of each lead. Reading the last line of the file allows the system to display the graphs in real-time.
+
+
 <br> <br> <br>
+
+
 
 <div style="page-break-after: always"></div>
 
