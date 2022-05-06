@@ -1,9 +1,9 @@
 # Notebook
-## Week 4
+## Week 4 (2/7/2022 – 2/13/2022)
 ### 2/8/2022 (Tue)
 
 
-## Week 5
+## Week 5 (2/14/2022 – 2/20/2022)
 ### 2/16/2022 (Wed)
 We sent an email to our project sponsor Kenny regarding our inquiries of the project and the design in general. 
 After receiving Kenny's reply, we finalized on some of the aspects of the design:
@@ -33,9 +33,22 @@ After receiving Kenny's reply, we finalized on some of the aspects of the design
 9. Grading is pretty harsh.
 
 
-## Week 6
+<div style="page-break-after: always"></div>
+
+
+## Week 6 (2/21/2022 – 2/27/2022)
 ### 2/21/2022 (Mon)
 PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
+
+Data Transmission Module
+* Requirements
+    1. Successfully transfer the data to the data visualization module
+    2. Calcuate the minimum required transmission rate. Ensure the product is at least that transmission rate.
+
+Data Visualization Module
+* Requirements
+    1. Display three graphs, each graph representing the data of each lead.
+
 
 
 
@@ -114,6 +127,83 @@ PUT SOMETHING YOU FOUND OR DECIDED WHILE WORKING ON DESIGN DOCUMENT
 3. Cite everything in the design document
     - IEEE format
     
+
+Final R & V for Data transmissino module for Design Document 1
+
+Here's an image of a drag racer in action:
+
+![R & V (Data Transmission Module)](./R_andV_1_Data_Transmission_Module.png)
+
+Move along.
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 7 (2/28/2022 – 3/6/2022)
+
+
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 8 (3/7/2022 – 3/13/2022)
+
+
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 9 (3/14/2022 – 3/20/2022)
+
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 10 (3/21/2022 – 3/27/2022)
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 11 (3/28/2022 – 4/3/2022)
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 12 (4/4/2022 – 4/10/2022)
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 13 (4/11/2022 – 4/17/2022)
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 14 (4/18/2022 – 4/24/2022)
+
+
+
+
+<div style="page-break-after: always"></div>
+
+## Week 15 (4/25/2022 – 5/1/2022)
+
+
+
+
 
 
 
